@@ -1,0 +1,39 @@
+html{
+    overflow: hidden;
+}
+.header{
+    /* outline: 1px solid black; */
+    width: 100%;
+    height: 5em;
+    background-color: lightblue;
+    text-align: center;
+}
+.left{
+    /* outline: 1px solid black; */
+    float: left;
+    width: 15%;
+    height: 50em;
+    background-color: green;
+}
+.content{
+    /* outline: 1px solid black; */
+    float: left;
+    height: 50em;
+    width: 70%;
+    background-color: red;
+}
+.right{
+    /* outline: 1px solid black; */
+    clear: none;
+    float: right;
+    width: 15%;
+    height: 50em;
+    background-color: lightgreen;
+}
+.footer{
+    /* outline: 1px solid black; */
+    clear: both;
+    width: 100%;
+    background-color: magenta;
+    height: 5em;
+}
