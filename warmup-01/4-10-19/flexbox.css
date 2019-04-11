@@ -1,0 +1,23 @@
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+  order: 1;
+}
+
+.left{
+  order: 2;
+}
+
+.content{
+  flex: 1;
+  order: 2;
+}
+.right{
+  order: 3;
+}
+.footer{
+  order: 4;
+}
